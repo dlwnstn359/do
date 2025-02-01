@@ -42,7 +42,7 @@ st.markdown(''' :red[독도] :gray[지킴이]:ocean: :gray[홈페이지에 오�
 
 st.image('독도 메인.jpg')
 # 독도의 위치 (지도 표시)
-st.header("독도의 위치")
+st.header(":gray[독도의 위치]")
 st.map(data={
     "latitude": [37.241086],
     "longitude": [131.864544]
