@@ -49,6 +49,9 @@ st.map(data={
 })
 st.header(":gray[표어]")
 
+if st.button('더 보기'):
+        st.video("https://www.youtube.com/watch?v=iNDRFPcNLns")
+
 st.markdown(
     """
     :gray[---]
