@@ -4,7 +4,7 @@ st.set_page_config(
     page_icon="🇰🇷",
     layout="centered"
 )
-st.title("독도 퀴즈")
+
 
 # 배경 스타일 설정
 st.markdown(
