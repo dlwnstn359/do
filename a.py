@@ -3,7 +3,7 @@ from PIL import Image
 
 # 페이지 기본 설정
 st.set_page_config(
-    page_title="독도 홈페이지",
+    page_title="독도 지킴이",
     page_icon="🇰🇷",
     layout="centered"
 )
