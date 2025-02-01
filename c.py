@@ -31,6 +31,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 st.title(":gray[독도 자연]")
+st.header(":gray[표어]")
 st.header(":gray[육상 생태계]")
 col1, col2, col3 = st.columns(3)
 
