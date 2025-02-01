@@ -33,7 +33,7 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-
+st.snow()
 # 제목
 st.markdown('<h1 class="title"> 독도 지킴이 </h1>', unsafe_allow_html=True)
 
