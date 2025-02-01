@@ -56,5 +56,5 @@ st.markdown(
 )
 
 # 사용자 채팅 입력
-st.text_input("💬 :gray[독도에 대해 하고 싶은 말을 남겨보세요!", placeholder="여기에 입력하세요...]")
+st.text_input("💬 :gray[독도에 대해 하고 싶은 말을 남겨보세요!]", placeholder="여기에 입력하세요...")
 
