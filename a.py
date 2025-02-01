@@ -35,7 +35,7 @@ st.markdown(
 )
 
 # 제목
-st.markdown('<h1 class="title">🇰🇷 독도, 대한민국의 자랑 🇰🇷</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="title"> 독도 지킴이 </h1>', unsafe_allow_html=True)
 
 # 소개글
 st.markdown(''' :red[독도] 지킴이:ocean: 홈페이지에 오신것을 환영합니다! 독도의 자연,역사,위치 등 독도에 관한 정보를 알려드립니다. 표어와 퀴즈를 구경할 수 있습니다.''')
@@ -49,6 +49,9 @@ st.markdown(
     ---
     
     🌐 **독도 지킴이** | 만든이: [이준수] | 모든 권리 보유.
+
+    ---
+    
     """
 )
 
