@@ -27,7 +27,7 @@ st.map(data={
 
 
 if st.button('더 보기'):
-        st.video("https://www.youtube.com/watch?v=iNDRFPcNLns")
+        st.video("https://www.ulleung.go.kr/live/index.do")
 
 st.markdown(
     """
