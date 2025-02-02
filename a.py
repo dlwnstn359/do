@@ -26,8 +26,7 @@ st.map(data={
 })
 
 
-st.subheader("독도 실시간 영상")
-st.link_button("https://www.ulleung.go.kr/live/index.do")
+st.link_button("독도 실시간 영상","https://www.ulleung.go.kr/live/index.do")
 
 st.markdown(
     """
