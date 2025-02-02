@@ -30,7 +30,9 @@ st.write("독도 해역은 동한난류와 북한한류의 영향을 받아 해�
 st.image("KakaoTalk_20250202_234939897.jpg")
 st.header("해양무척추동물")
 st.write("조간대에는 검은큰따개비, 거북손, 바위게, 홍합 등의 갑각류와 연체동물이 우점하며, 조하대에는 군소, 불똥해면, 짧은가시거미불가사리 등이 분포한다. 특히, 서도 서측 수심 25m 부근에서 국내 최대 규모의 유착나무돌산호 군집(폭 5m, 높이 3.3m)이 발견되었으나, 최근 서식지가 감소하는 추세다.")
-st.image("yeUOsiAsiQoptMGhH8A-ToAQSm-8fPTj1Y5QRD7kf7y8bdksg3zorJLGRWRmJavA5jAIZ86uCTkB7syQFBLLHg.png")
+
+if st.button('The Easter Egg'):
+        st.image("yeUOsiAsiQoptMGhH8A-ToAQSm-8fPTj1Y5QRD7kf7y8bdksg3zorJLGRWRmJavA5jAIZ86uCTkB7syQFBLLHg.png")
     
 
 
