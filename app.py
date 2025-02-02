@@ -1,6 +1,10 @@
 import streamlit as st
 from PIL import Image
 
+# 사이드바에 로고 이미지 추가
+logo = Image.open("dokdo_logo.png")  # 로컬 파일 불러오기 (경로 확인!)
+st.sidebar.image(logo, use_column_width=True)
+
 pages = {
     "Your account": [
         st.Page("a.py", title="메인"),
