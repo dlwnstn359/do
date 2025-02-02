@@ -1,9 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-# 사이드바에 로고 이미지 추가
-logo = Image.open("독도 메인.jpg")  
-st.sidebar.image(logo, use_column_width=True)
+
 
 pages = {
     "Your account": [
