@@ -15,7 +15,7 @@ st.markdown(
     @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap');
     .stApp {
         background-color: #f0f8ff;
-        background-image: linear-gradient(45deg, #f0f8ff 25%, #d7e3fc 75%);
+        background-image: linear-gradient(45deg, #FF0000 25%, #0000FF 75%);
     }
     .title {
         font-family: 'Nanum Myeongjo', serif;
