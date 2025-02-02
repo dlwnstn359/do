@@ -23,7 +23,7 @@ st.map(data={
     "latitude": [37.241086],
     "longitude": [131.864544]
 })
-st.header("표어")
+
 
 if st.button('더 보기'):
         st.video("https://www.youtube.com/watch?v=iNDRFPcNLns")
