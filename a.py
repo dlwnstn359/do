@@ -21,21 +21,11 @@ st.markdown('독도 지킴이 홈페이지에 오신것을 환영합니다! 독�
 st.image('KakaoTalk_20250202_235649064.jpg')
 
 
-# 독도 위도 & 경도
-dokdo_location = [37.241086, 131.864544]
-
-# Folium 지도 생성
-m = folium.Map(location=dokdo_location, zoom_start=12)
-
-# 마커 추가
-folium.Marker(
-    dokdo_location,
-    popup="독도 (Dokdo)",
-    tooltip="독도의 위치",
-    icon=folium.Icon(color="blue", icon="info-sign")
-).add_to(m)
-
-st_folium(m, width=700, height=500)
+st.header("독도의 위치")
+st.map(data={
+"latitude": [37.241086],
+"longitude": [131.864544]
+})
 
 
 st.link_button("독도 실시간 영상","https://www.ulleung.go.kr/live/index.do")
