@@ -1,6 +1,5 @@
 import streamlit as st
-import folium
-from streamlit_folium import st_folium
+
 
 
 # 페이지 기본 설정
@@ -25,7 +24,7 @@ st.header("독도의 위치")
 st.map(data={
 "latitude": [37.241086],
 "longitude": [131.864544]
-})
+ })
 
 
 st.link_button("독도 실시간 영상","https://www.ulleung.go.kr/live/index.do")
