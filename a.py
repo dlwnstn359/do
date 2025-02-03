@@ -32,7 +32,7 @@ st.markdown(
     </style>
     """,
     unsafe_allow_html=True
-)      이코드 구체적으로 설명해줘
+)      
 
 st.snow()
 # 제목
