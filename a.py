@@ -20,11 +20,6 @@ st.markdown('독도 지킴이 홈페이지에 오신것을 환영합니다! 독�
 st.image('KakaoTalk_20250202_235649064.jpg')
 
 
-st.header("독도의 위치")
-st.map(data={
-"latitude": [37.241086],
-"longitude": [131.864544]
- })
 
 
 st.link_button("독도 실시간 영상","https://www.ulleung.go.kr/live/index.do")
